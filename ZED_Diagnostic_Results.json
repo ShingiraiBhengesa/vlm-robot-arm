@@ -1,0 +1,268 @@
+{
+    "Camera Test": {
+        "InternalDevicesCount": 2,
+        "ZEDCount": 1,
+        "camera": {
+            "Device ID": 0,
+            "Firmware": 1523,
+            "Init Output": "OK",
+            "Model": "ZED Mini",
+            "Serial Number": 10436266,
+            "valid": [
+                "<b>Camera: </b>ZED Mini",
+                "<b>Firmware: </b>1523"
+            ]
+        },
+        "resolutions": {
+            "HD1080@15": {
+                "fps (input)": 15,
+                "fps (output)": 15,
+                "height (input)": 1080,
+                "height (output)": 1080,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 1920,
+                "width (output)": 1920
+            },
+            "HD1080@30": {
+                "fps (input)": 30,
+                "fps (output)": 30,
+                "height (input)": 1080,
+                "height (output)": 1080,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 1920,
+                "width (output)": 1920
+            },
+            "HD2K@15": {
+                "fps (input)": 15,
+                "fps (output)": 15,
+                "height (input)": 1242,
+                "height (output)": 1242,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 2208,
+                "width (output)": 2208
+            },
+            "HD720@15": {
+                "fps (input)": 15,
+                "fps (output)": 15,
+                "height (input)": 720,
+                "height (output)": 720,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 1280,
+                "width (output)": 1280
+            },
+            "HD720@30": {
+                "fps (input)": 30,
+                "fps (output)": 30,
+                "height (input)": 720,
+                "height (output)": 720,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 1280,
+                "width (output)": 1280
+            },
+            "HD720@60": {
+                "dropCount": 41,
+                "fps (input)": 60,
+                "fps (output)": 60,
+                "height (input)": 720,
+                "height (output)": 720,
+                "imageCount": 459,
+                "initialization": "OK",
+                "status": true,
+                "tearingCount": 0,
+                "width (input)": 1280,
+                "width (output)": 1280
+            },
+            "VGA@100": {
+                "fps (input)": 100,
+                "fps (output)": 100,
+                "height (input)": 376,
+                "height (output)": 376,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 672,
+                "width (output)": 672
+            },
+            "VGA@15": {
+                "fps (input)": 15,
+                "fps (output)": 15,
+                "height (input)": 376,
+                "height (output)": 376,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 672,
+                "width (output)": 672
+            },
+            "VGA@30": {
+                "fps (input)": 30,
+                "fps (output)": 30,
+                "height (input)": 376,
+                "height (output)": 376,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 672,
+                "width (output)": 672
+            },
+            "VGA@60": {
+                "fps (input)": 60,
+                "fps (output)": 60,
+                "height (input)": 376,
+                "height (output)": 376,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 672,
+                "width (output)": 672
+            }
+        },
+        "sensors": {
+            "Firmware": 517,
+            "Init Output": "OK",
+            "Model": "ZED Mini (MCU)",
+            "Serial Number": 10436266
+        }
+    },
+    "Devices": {
+        "CorruptedFirmware": false,
+        "MCUDetected": true,
+        "USBList": [
+            {
+                "USB_path": "/9",
+                "idProduct": "0x0328",
+                "idVendor": "0x0bda"
+            },
+            {
+                "USBMode": 3,
+                "USB_path": "/2",
+                "bDescriptorType": 1,
+                "bDeviceProtocol": 1,
+                "bLength": 18,
+                "bMaxPacketSize0": 9,
+                "bNumConfigurations": 1,
+                "bcdDevice": "1.0",
+                "bcdUSB": "3.0",
+                "bcdUSBClass": 239,
+                "bcdUSBSubClass": 2,
+                "busNumber": 2,
+                "device": "ZED mini",
+                "iManufacturer": 1,
+                "iProduct": 2,
+                "iSerial": 0,
+                "idProduct": "0xf682",
+                "idVendor": "0x2b03"
+            },
+            {
+                "USB_path": "/10",
+                "idProduct": "0x0411",
+                "idVendor": "0x0bda"
+            },
+            {
+                "USB_path": "/8",
+                "idProduct": "0x2113",
+                "idVendor": "0x413c"
+            },
+            {
+                "USB_path": "/4",
+                "idProduct": "0x2510",
+                "idVendor": "0x093a"
+            },
+            {
+                "USBMode": 2,
+                "USB_path": "/2",
+                "bDescriptorType": 1,
+                "bDeviceProtocol": 0,
+                "bLength": 18,
+                "bMaxPacketSize0": 64,
+                "bNumConfigurations": 1,
+                "bcdDevice": "2.5",
+                "bcdUSB": "2.0",
+                "bcdUSBClass": 0,
+                "bcdUSBSubClass": 0,
+                "busNumber": 1,
+                "device": "ZED mini MCU",
+                "iManufacturer": 1,
+                "iProduct": 2,
+                "iSerial": 3,
+                "idProduct": "0xf681",
+                "idVendor": "0x2b03"
+            },
+            {
+                "USB_path": "/10",
+                "idProduct": "0x5411",
+                "idVendor": "0x0bda"
+            }
+        ],
+        "USBMode": 3,
+        "ZED Camera Module Detected": 63106,
+        "ZED MCU Module Detected": 63105,
+        "ZEDDetected": true
+    },
+    "Graphics Card": {
+        "deviceCount": 1,
+        "deviceDriverVersion": 12090,
+        "devices": [
+            {
+                "arch": "Pascal",
+                "computeCapability": "6.1",
+                "cores": 640,
+                "name": "Quadro P1000",
+                "totalMemoryBytes": "4218880000",
+                "totalMemoryMB": 4023.4375
+            }
+        ],
+        "initResult": 0,
+        "valid": [
+            "<b>Graphics card: </b> Quadro P1000"
+        ]
+    },
+    "Processor": {
+        "OS": "Ubuntu 22.04.5 LTS ",
+        "avxSupported": true,
+        "coreCount": "8",
+        "cpu": " Intel(R) Xeon(R) W-2123 CPU @ 3.60GHz",
+        "datetime": "2025-10-20 09:29:08 AM",
+        "hyperThreading": "1",
+        "motherboard": "002KVM, Dell Inc.",
+        "ramCapacity": "16.432509",
+        "ramUsage": "",
+        "ramUsed": "16.104313",
+        "threadCount": "16",
+        "valid": [
+            "<b>Processor: </b>  Intel(R) Xeon(R) W-2123 CPU @ 3.60GHz",
+            "<b>Motherboard: </b> 002KVM, Dell Inc."
+        ]
+    },
+    "ZED SDK": {
+        "CUDA Toolkit version": "V11.8.89 -->located in /usr/local/cuda-11.8/bin/nvcc",
+        "CUDA loading": false,
+        "GPU Driver Version": "Driver Version                            : 575.57.08",
+        "GPU Performance": "    Performance State                     : P8",
+        "ZED SDK Version (Diag)": "4.0.5",
+        "ZED SDK Version (RT)": "4.0.5",
+        "ai": {
+            "checkAI": true,
+            "cudaVersion": 11080,
+            "cudnnCudartVersion": 11080,
+            "cudnnVersion": 8600,
+            "cudnnVersionExpected": 8600,
+            "tensorVersion": 8501
+        },
+        "binFiles": [
+            "libsl_ai.so",
+            "libsl_zed.so",
+            "libsl_zed_static.a"
+        ],
+        "resourcesFiles": [
+        ],
+        "resourcesFilesExpected": [
+            "objects_performance_3.2"
+        ],
+        "valid": [
+            "<b>ZED SDK version:</b> 4.0.5",
+            "<b>CUDA version:</b> V11.8.89"
+        ]
+    }
+}
